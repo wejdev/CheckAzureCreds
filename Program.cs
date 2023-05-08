@@ -47,6 +47,12 @@ internal class Program
         Console.WriteLine("");
         Console.WriteLine("---------- AzurePowerShellCredential -----------");
         TestCredential(new AzurePowerShellCredential());
+
+        /*
+        Console.WriteLine("");
+        Console.WriteLine("---------- InteractiveBrowserCredential -----------");
+        TestCredential(new InteractiveBrowserCredential());
+    */
     }
 
     private static void TestCredential(TokenCredential credential)
